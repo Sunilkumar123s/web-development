@@ -1,0 +1,55 @@
+<!doctype html>
+<head>
+<title>facebook </title>
+<style>
+input{
+margin:10px;
+padding:10px;
+}
+body{
+background:gainsboro;
+}
+.cont{
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 113px;
+    left: 502px;
+    background-color: white;
+}
+.btn{
+    background-color: #0165E1;
+    width: 286px;
+    height: 41px;
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 21px;
+}
+span{
+    padding: 6px;
+}
+    
+
+
+</style>
+</head>
+<body>
+    <div class="cont">
+
+
+<form>
+    <h1>login to facebook</h1>
+<label>Username:<input type="text"><br></label>
+<label>password:<input type="password"></label><br>
+<button type="button" class="btn">Login</button>
+<center><a href=""><span>Forget password?<span></a></center>
+</form>
+</div>
+</body>
+</html>
