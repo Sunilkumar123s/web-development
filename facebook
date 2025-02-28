@@ -5,6 +5,12 @@
 input{
 margin:10px;
 padding:10px;
+border-radius: 10px;
+border:1px solid black;
+}
+h1{
+    position: relative;
+    top: -80px;
 }
 body{
 background:gainsboro;
@@ -13,14 +19,15 @@ background:gainsboro;
     height: 500px;
     width: 350px;
     border: 2px solid black;
-    display: flex;
-
+    display: flex
+;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 113px;
     left: 502px;
     background-color: white;
+    border-radius: 11px;
 }
 .btn{
     background-color: #0165E1;
@@ -31,9 +38,20 @@ background:gainsboro;
     color: white;
     font-size: 21px;
 }
-span{
-    padding: 6px;
+span{padding: 7px;
+    /* margin-top: 64px; */
+    /* padding-top: 445px; */
+    position: relative;
+    top: 21px;
+    color: #0165E1;
 }
+label{
+    position: relative;
+    bottom: 37px;
+ 
+}
+label::active{
+background-color:blue;}
     
 
 
@@ -45,8 +63,9 @@ span{
 
 <form>
     <h1>login to facebook</h1>
-<label>Username:<input type="text"><br></label>
-<label>password:<input type="password"></label><br>
+
+<label>Username:<input type="text" placeholder="enter your username"><br></label>
+<label>password:<input type="password" placeholder="enter your password"></label><br>
 <button type="button" class="btn">Login</button>
 <center><a href=""><span>Forget password?<span></a></center>
 </form>
